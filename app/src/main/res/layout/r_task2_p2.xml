@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+     <RelativeLayout
+          android:id="@+id/outer_l1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:background="@color/white">
+
+          <RelativeLayout
+              android:id="@+id/o1_inner_l1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white">
+
+               <Button
+                   android:id="@+id/o1_inner1_btn1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/menu"
+                   android:scaleY="0.6"
+                   android:scaleX="0.4"/>
+
+               <Button
+                   android:id="@+id/o1_inner1_btn2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/shopping_cart"
+                   android:scaleY="0.6"
+                   android:scaleX="0.4"
+                   android:layout_alignParentRight="true"/>
+
+               <TextView
+                   android:id="@+id/o1_inner1_tv1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="What Kind of Plants You Want"
+                   android:textColor="@color/black"
+                   android:textSize="100px"
+                   android:layout_marginTop="30dp"
+                   android:layout_below="@id/o1_inner1_btn1"/>
+
+               <SearchView
+                   android:id="@+id/o1_inner1_sv1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o1_inner1_tv1"
+                   android:background="#DDDDDD"/>
+
+          </RelativeLayout>
+          
+          <RelativeLayout
+               android:id="@+id/o1_inner_l2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/o1_inner_l1"
+              android:background="@color/white">
+
+               <Button
+                    android:id="@+id/o1_inner_btn1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="All"
+                   android:textColor="@color/black"
+                   android:textSize="40px"
+                   android:layout_margin="5dp"
+                   android:background="@color/white"/>
+
+               <Button
+                   android:id="@+id/o1_inner_btn2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Small"
+                   android:textColor="@color/black"
+                   android:textSize="40px"
+                   android:background="@color/white"
+                   android:layout_margin="5dp"
+                   android:layout_toRightOf="@id/o1_inner_btn1"/>
+
+               <Button
+                   android:id="@+id/o1_inner_btn3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Mediem"
+                   android:textColor="@color/black"
+                   android:textSize="40px"
+                   android:background="@color/white"
+                   android:layout_margin="5dp"
+                   android:layout_toRightOf="@id/o1_inner_btn2"/>
+
+               <Button
+                   android:id="@+id/o1_inner_btn4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hanging"
+                   android:textColor="@color/black"
+                   android:textSize="40px"
+                   android:background="@color/white"
+                   android:layout_margin="5dp"
+                   android:layout_toRightOf="@id/o1_inner_btn3"/>
+
+          </RelativeLayout>
+
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:id="@+id/o2_l1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="20dp"
+         android:layout_below="@id/outer_l1">
+
+          <RelativeLayout
+              android:id="@+id/o2_inner_l1"
+              android:layout_width="160dp"
+              android:layout_height="230dp"
+              android:layout_margin="15dp"
+              android:background="@drawable/custom_layout_3">
+
+               <TextView
+                             android:id="@+id/o2_inner_l1_tv1"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="Indoor"
+                             android:textColor="@color/white"
+                             android:textSize="40px"
+                             android:padding="15dp"/>
+
+               <Button
+                             android:id="@+id/o2_inner_l1_btn1"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignParentRight="true"
+                             android:background="@drawable/favorite"
+                             android:scaleY="0.5"
+                             android:scaleX="0.3"/>
+
+               <ImageView
+                             android:id="@+id/o2_inner_l1_img1"
+                             android:layout_width="wrap_content"
+                             android:layout_height="130dp"
+                             android:layout_below="@id/o2_inner_l1_tv1"
+                             android:src="@drawable/i3" />
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_img1"
+                   android:text="Plant Name"
+                   android:textColor="@color/white"
+                   android:textSize="40px"
+                   android:layout_marginHorizontal="10dp"/>
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_tv2"
+                   android:layout_marginHorizontal="10dp"
+                   android:text="From $12"
+                   android:textColor="@color/white"
+                   android:textSize="35px" />
+
+               <Button
+                             android:id="@+id/o2_inner_l1_btn2"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:background="@drawable/add"
+                             android:scaleX="0.3"
+                             android:scaleY="0.5"
+                             android:layout_below="@id/o2_inner_l1_img1"
+                             android:layout_alignParentRight="true"
+                             android:layout_marginRight="5dp"/>
+
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:id="@+id/o2_inner_l2"
+              android:layout_width="160dp"
+              android:layout_height="230dp"
+              android:layout_margin="15dp"
+              android:layout_toRightOf="@id/o2_inner_l1"
+              android:background="@drawable/custom_layout_3">
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Indoor"
+                   android:textColor="@color/white"
+                   android:textSize="40px"
+                   android:padding="15dp"/>
+
+               <Button
+                   android:id="@+id/o2_inner_l1_btn1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:background="@drawable/favorite"
+                   android:scaleY="0.5"
+                   android:scaleX="0.3"/>
+
+               <ImageView
+                   android:id="@+id/o2_inner_l1_img1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="130dp"
+                   android:layout_below="@id/o2_inner_l1_tv1"
+                   android:src="@drawable/i3" />
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_img1"
+                   android:text="Plant Name"
+                   android:textColor="@color/white"
+                   android:textSize="40px"
+                   android:layout_marginHorizontal="10dp"/>
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_tv2"
+                   android:layout_marginHorizontal="10dp"
+                   android:text="From $12"
+                   android:textColor="@color/white"
+                   android:textSize="35px" />
+
+               <Button
+                   android:id="@+id/o2_inner_l1_btn2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/add"
+                   android:scaleX="0.3"
+                   android:scaleY="0.5"
+                   android:layout_below="@id/o2_inner_l1_img1"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="5dp"/>
+
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:id="@+id/o2_inner_l3"
+              android:layout_width="160dp"
+              android:layout_height="230dp"
+              android:layout_margin="15dp"
+              android:layout_below="@id/o2_inner_l1"
+              android:background="@drawable/custom_layout_3">
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Indoor"
+                   android:textColor="@color/white"
+                   android:textSize="40px"
+                   android:padding="15dp"/>
+
+               <Button
+                   android:id="@+id/o2_inner_l1_btn1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:background="@drawable/favorite"
+                   android:scaleY="0.5"
+                   android:scaleX="0.3"/>
+
+               <ImageView
+                   android:id="@+id/o2_inner_l1_img1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="130dp"
+                   android:layout_below="@id/o2_inner_l1_tv1"
+                   android:src="@drawable/i3" />
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_img1"
+                   android:text="Plant Name"
+                   android:textColor="@color/white"
+                   android:textSize="40px"
+                   android:layout_marginHorizontal="10dp"/>
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_tv2"
+                   android:layout_marginHorizontal="10dp"
+                   android:text="From $12"
+                   android:textColor="@color/white"
+                   android:textSize="35px" />
+
+               <Button
+                   android:id="@+id/o2_inner_l1_btn2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/add"
+                   android:scaleX="0.3"
+                   android:scaleY="0.5"
+                   android:layout_below="@id/o2_inner_l1_img1"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="5dp"/>
+
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:id="@+id/o2_inner_l4"
+              android:layout_width="160dp"
+              android:layout_height="230dp"
+              android:layout_margin="15dp"
+              android:layout_toRightOf="@id/o2_inner_l3"
+              android:layout_below="@id/o2_inner_l2"
+              android:background="@drawable/custom_layout_3">
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Indoor"
+                   android:textColor="@color/white"
+                   android:textSize="40px"
+                   android:padding="15dp"/>
+
+               <Button
+                   android:id="@+id/o2_inner_l1_btn1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:background="@drawable/favorite"
+                   android:scaleY="0.5"
+                   android:scaleX="0.3"/>
+
+               <ImageView
+                   android:id="@+id/o2_inner_l1_img1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="130dp"
+                   android:layout_below="@id/o2_inner_l1_tv1"
+                   android:src="@drawable/i3" />
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_img1"
+                   android:text="Plant Name"
+                   android:textColor="@color/white"
+                   android:textSize="40px"
+                   android:layout_marginHorizontal="10dp"/>
+
+               <TextView
+                   android:id="@+id/o2_inner_l1_tv3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/o2_inner_l1_tv2"
+                   android:layout_marginHorizontal="10dp"
+                   android:text="From $12"
+                   android:textColor="@color/white"
+                   android:textSize="35px" />
+
+               <Button
+                   android:id="@+id/o2_inner_l1_btn2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/add"
+                   android:scaleX="0.3"
+                   android:scaleY="0.5"
+                   android:layout_below="@id/o2_inner_l1_img1"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="5dp"/>
+
+          </RelativeLayout>
+
+     </RelativeLayout>
+
+</RelativeLayout>

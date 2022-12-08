@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/add.xml" value="0.1605" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/add_2.xml" value="0.2505" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/arrow_back.xml" value="0.2505" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/b.xml" value="0.2985" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_button_1.xml" value="0.1945" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_button_2.xml" value="0.161" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_button_3.xml" value="0.161" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_button_4.xml" value="0.25" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_edit_field_1.xml" value="0.1945" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_editfield_2.xml" value="0.25" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_layout_1.xml" value="0.1495" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_layout_2.xml" value="0.25" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custom_layout_3.xml" value="0.1605" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/custome_button_5.xml" value="0.1455" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/favorite.xml" value="0.1605" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/lock.xml" value="0.222" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/menu.xml" value="0.222" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/mic_none.xml" value="0.222" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/person_outline.xml" value="0.222" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/shopping_cart.xml" value="0.222" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/star.xml" value="0.1455" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/sub.xml" value="0.199" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/drawable/sub_2.xml" value="0.1455" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout-v21/r_test.xml" value="0.18" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/activity_main2.xml" value="0.1921875" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/assignment.xml" value="0.22" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/c_task1_p1.xml" value="0.1" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/c_task1_p2.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/c_task2_p1.xml" value="0.18" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/c_task2_p2.xml" value="0.19794784095767423" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/calculator.xml" value="0.15" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/class_task.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/r_task1_p1.xml" value="0.2" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/r_task1_p2.xml" value="0.18" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/r_task2_p1.xml" value="0.18" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/r_task2_p2.xml" value="0.18" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/r_task2_p3.xml" value="0.2" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/r_test.xml" value="0.16" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/task1_p1.xml" value="0.12511332728921123" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/task1_p2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/task2_p1.xml" value="0.17" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/task2_p2.xml" value="0.16" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/task2_p3.xml" value="0.16" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/task3.xml" value="0.2" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/layout/test.xml" value="0.18" />
+        <entry key="..\:/Users/shujj/AndroidStudioProjects/Assignment_no1/app/src/main/res/menu/menu.xml" value="0.266015625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
